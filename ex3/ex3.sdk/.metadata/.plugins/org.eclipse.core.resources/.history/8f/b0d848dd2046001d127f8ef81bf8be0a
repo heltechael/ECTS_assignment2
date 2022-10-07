@@ -38,7 +38,7 @@ int main(void) {
 	XGpio_SetDataDirection(&push, 1, 0xffffffff);
 
 	while (1) {
-		xil_printf("Enter choice: 1 (SW LEDS), 2 (Timer LEDS).\n\rCMD:> ");
+		xil_printf("Enter choice: 1 (SW LEDS), 2 (Timer LEDS).\nCMD:> ");
 		/* Read an input value from the console. */
 		int value = inbyte();
 		inbyte(); //CR

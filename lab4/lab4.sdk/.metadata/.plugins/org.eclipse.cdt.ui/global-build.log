@@ -1,4 +1,4 @@
-14:25:56 **** Incremental Build of configuration Debug for project lab4 ****
+11:00:56 **** Incremental Build of configuration Debug for project lab4 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -11,11 +11,11 @@ c:/xilinx/sdk/2017.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-ea
 c:/xilinx/sdk/2017.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/bin/ld.exe: region `axi_bram_ctrl_0_Mem0' overflowed by 32832 bytes
 collect2.exe: error: ld returned 1 exit status
 make: *** [lab4.elf] Error 1
-14:26:52 **** Clean-only build of configuration Debug for project lab4 ****
+11:01:24 **** Clean-only build of configuration Debug for project lab4 ****
 make clean 
 rm -rf  ./src/lab4.o  ./src/lab4.d  lab4.elf.size  lab4.elf
 ' '
-14:26:53 **** Auto Build of configuration Debug for project lab4 ****
+11:01:25 **** Auto Build of configuration Debug for project lab4 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
@@ -32,10 +32,10 @@ arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=non
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size lab4.elf  |tee "lab4.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  23492	   1188	   8240	  32920	   8098	lab4.elf
+  23492	   1188	   8248	  32928	   80a0	lab4.elf
 'Finished building: lab4.elf.size'
 ' '
-14:27:12 **** Incremental Build of configuration Debug for project lab4 ****
+11:01:34 **** Incremental Build of configuration Debug for project lab4 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
