@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/lab3/lab3.runs/synth_1'
+HD_PWD='C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/ex5/ex5.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
