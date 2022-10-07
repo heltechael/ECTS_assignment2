@@ -3562,3 +3562,6 @@ java.lang.NullPointerException
 
 !ENTRY com.xilinx.sdk.utils 0 0 2022-10-07 13:18:34.192
 !MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/ex5/ex5.sdk/ex5_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2022-10-07 13:41:51.316
+!MESSAGE Executed Webtalk command
