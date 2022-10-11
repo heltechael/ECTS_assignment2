@@ -1,40 +1,8 @@
-13:40:20 **** Auto Build of configuration Debug for project ex5 ****
+11:56:37 **** Incremental Build of configuration Debug for project ex5 ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/ex5.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ex5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../ex5_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/ex5.d" -MT"src/ex5.o" -o "src/ex5.o" "../src/ex5.c"
-../src/ex5.c: In function 'main':
-../src/ex5.c:74:9: error: 'row' undeclared (first use in this function)
-    for (row = 0; row < 4; ++row) {
-         ^~~
-../src/ex5.c:74:9: note: each undeclared identifier is reported only once for each function it appears in
-../src/ex5.c:75:10: error: 'col' undeclared (first use in this function)
-     for (col = 0; col < 4; ++col) {
-          ^~~
-../src/ex5.c:77:8: error: 'XPAR_MATRIX_IP_0_S_AXI_BASEADDR' undeclared (first use in this function)
-        XPAR_MATRIX_IP_0_S_AXI_BASEADDR
-        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/ex5.c:78:12: error: 'MATRIX_IP_S_AXI_SLV_REG0_OFFSET' undeclared (first use in this function)
-          + MATRIX_IP_S_AXI_SLV_REG0_OFFSET,
-            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/ex5.c:79:8: error: 'A' undeclared (first use in this function)
-        A[row].vect);
-        ^
-../src/ex5.c:82:12: error: 'MATRIX_IP_S_AXI_SLV_REG1_OFFSET' undeclared (first use in this function)
-          + MATRIX_IP_S_AXI_SLV_REG1_OFFSET,
-            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-../src/ex5.c:83:8: error: 'B' undeclared (first use in this function)
-        B[col].vect);
-        ^
-../src/ex5.c:84:6: error: 'P' undeclared (first use in this function)
-      P[row].comp[col] = Xil_In32(
-      ^
-../src/ex5.c:86:12: error: 'MATRIX_IP_S_AXI_SLV_REG2_OFFSET' undeclared (first use in this function)
-          + MATRIX_IP_S_AXI_SLV_REG2_OFFSET);
-            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-make: *** [src/ex5.o] Error 1
+make: Nothing to be done for `main-build'.
 
-13:40:21 Build Finished (took 452ms)
+11:56:37 Build Finished (took 588ms)
 

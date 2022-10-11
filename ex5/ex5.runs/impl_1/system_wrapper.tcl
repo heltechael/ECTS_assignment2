@@ -54,7 +54,7 @@ set rc [catch {
   set_property webtalk.parent_dir C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/ex5/ex5.cache/wt [current_project]
   set_property parent.project_path C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/ex5/ex5.xpr [current_project]
   set_property ip_repo_paths {
-  c:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/led_ip_1.0
+  C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/led_ip_1.0
   C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/matrix_ip_1.0
 } [current_project]
   set_property ip_output_repo C:/Users/dehae/SynologyDrive/2223UNI/Embedded/Assignment_2/EmbeddedSystem_labs/ex5/ex5.cache/ip [current_project]
